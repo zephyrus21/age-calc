@@ -1,0 +1,62 @@
+body {
+  font-family: "Muli", sans-serif;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  font-size: 1rem;
+  text-align: center;
+  color: #555;
+  margin: 0;
+}
+
+#root {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+select,
+button {
+  border: 1px solid #555;
+  outline: none;
+  cursor: pointer;
+  font-family: inherit;
+  border-radius: 2px;
+}
+
+select {
+  background-color: #fff;
+  padding: 0.4rem;
+  margin: 0 0.5rem;
+  flex-basis: 25%;
+  font-size: 1.2rem;
+}
+
+button {
+  width: 80%;
+  display: block;
+  background-color: transparent;
+  margin: 1rem auto;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+}
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+span {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+}
