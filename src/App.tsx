@@ -75,6 +75,10 @@ const App: React.FC = ({}) => {
         <h2>Your age is</h2>
         <span>{age}</span>
       </div>
+      <footer>
+        Built by{" "}
+        <a href='https://piyushpandey.tech'>Piyush(Purusottam Pandey)</a>
+      </footer>
     </>
   );
 };
